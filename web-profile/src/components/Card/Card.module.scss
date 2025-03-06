@@ -1,8 +1,8 @@
 $primary: rgb(255, 255, 255);
 .card {
     background-color: $primary;
-    width: 1500px;
-    height: 800px; /* Ajusta la altura a lo que necesites */
+    width: 90%;
+    height: 100vh; /* Ajusta la altura a lo que necesites */
     margin: 50px auto;
     padding: 50px;
     border-radius: 20px;
@@ -10,12 +10,6 @@ $primary: rgb(255, 255, 255);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-
-.image {
-    width: 100%; /* Que ocupe todo el ancho del contenedor */
-   height: auto; /* Mantiene la proporción */
-    border-radius: 8px; /* Esquinas redondeadas */
-}
 
 /*
     align-items: center;

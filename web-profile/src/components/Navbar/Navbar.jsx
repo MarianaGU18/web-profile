@@ -14,7 +14,7 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             {/* Logo */}
             <h1 className={styles.logo}>Security Data Networks Web</h1>
-
+            
     
             {/* Lista de enlaces */}
             <ul className={`${styles.navLinks} ${isMenuOpen ? styles.open : ''}`}>
