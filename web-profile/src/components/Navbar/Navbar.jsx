@@ -4,27 +4,35 @@ import styles from './Navbar.module.scss';
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
 
-    const toggleMenu = () => {
-        setIsMenuOpen(prevState => !prevState);
-    };
-
-    return (
-        <nav className={styles.navbar}>
+  return (
+    <>
+      <h1 className={styles.logo}>Security Data Networks Web</h1>
+      <svg onClick={() => setIsMenuOpen(!isMenuOpen)}
+        xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+      </svg>
+      {isMenuOpen ?
+        <>
+          <nav className={styles.navbar}>
             {/* Logo */}
-            <h1 className={styles.logo}>Security Data Networks Web</h1>
-            
-    
+
+
             {/* Lista de enlaces */}
             <ul className={`${styles.navLinks} ${isMenuOpen ? styles.open : ''}`}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About Me</Link></li>
-                <li><Link to="/curriculum">Curriculum</Link></li>
-                <li><Link to="/schedule">Schedule</Link></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About Me</Link></li>
+              <li><Link to="/curriculum">Curriculum</Link></li>
+              <li><Link to="/schedule">Schedule</Link></li>
             </ul>
-        </nav>
-    );
+          </nav>
+        </>
+        : ''
+      }
+
+    </>
+  );
 };
 
 const Sidebar = () => {
@@ -33,8 +41,8 @@ const Sidebar = () => {
   return (
     <div className="flex">
       {/* Botón de menú hamburguesa */}
-      <button 
-        onClick={() => setIsOpen(!isOpen)} 
+      <button
+        onClick={() => setIsOpen(!isOpen)}
         className="p-2 m-4 bg-gray-800 text-white rounded-md md:hidden"
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
