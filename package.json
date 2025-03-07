@@ -1,6 +1,7 @@
 {
   "name": "web-profile",
   "private": true,
+  "homepages": "https://marianagu18.github.io/web-profile/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
