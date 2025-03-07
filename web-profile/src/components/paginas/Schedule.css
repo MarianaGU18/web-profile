@@ -53,13 +53,17 @@
   }
   
   .redes {
-    background: #fff3cd;
-    color: #856404;
+    background: #da9fdb;
+    color: #000000;
     font-weight: bold;
   }
-  
+  .lab_redes {
+    background: #feb4ff;
+    color: #000000;
+    font-weight: bold;
+  }
   .lab_micro {
-    background: #e0bbe4;
+    background: #fff350;
     color: #6d2177;
     font-weight: bold;
   }
@@ -69,4 +73,8 @@
     color: #a67c00;
     font-weight: bold;
   }
-  
+  .frances {
+    background: #7c83cf;
+    color: #000000;
+    font-weight: bold;
+  }

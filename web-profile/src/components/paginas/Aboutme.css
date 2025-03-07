@@ -8,10 +8,13 @@
     border-radius: 20px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   }
-  
+  p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
   .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin: 10px 0;
   }
@@ -24,14 +27,7 @@
     list-style-type: none;
     padding: 0;
   }
-  
-  /* ul li {
-    background: #f0f0f0;
-    margin: 8px 0;
-    padding: 10px;
-    border-radius: 8px;
-  } */
-  
+
   .gallery {
     display: flex;
     justify-content: center;
@@ -44,4 +40,12 @@
     height: 200px;
     border-radius: 10px;
   }
-  
+
+
+footer {
+  background-color: #8dd8d8;
+  color: rgb(0, 0, 0);
+  font-family: 'Arial', sans-serif;  
+  text-align: center;
+  padding: 20px;
+}

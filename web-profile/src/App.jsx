@@ -8,7 +8,6 @@ import Schedule from "./components/paginas/Shedule"; // "Shedule.jsx", no "Sched
 import styles from '././components/Navbar/Navbar';
 
 function App() {
-  const items = ["React", "JavaScript", "Vite"];
 
   return (
     <div className={styles.container}>
@@ -22,14 +21,9 @@ function App() {
             <Route path="/schedule" element={<Schedule />} />
           </Routes>
         </main>
-
-        <ul>
-          {items.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
       </Router>
     </div>
+
   );
 }
 

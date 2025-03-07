@@ -1,59 +1,120 @@
 import React from "react";
-import "./Curriculum.css"; 
+import "./Curriculum.css";
 
 const Curriculum = () => {
   return (
-    <div className="curriculum-container">
-      <h1>📜 Mi Currículum</h1>
-      <p>
-        Soy una persona apasionada por la tecnología, el aprendizaje y el desarrollo de nuevas habilidades. Me encanta enfrentar desafíos y mejorar constantemente.
-      </p>
+    <div>
+      <div className="curriculum-container">
+        <h1>Mariana Gomez Urbano</h1>
+        <h2>Contact</h2>
+        <div className="education">
+          <ul>
+            <il>
+              <p> Phone number: +52 55 39337438</p>
+              <p> Email: margu2606@gmail.com</p>
 
-      <h2>🎓 Educación</h2>
-      <div className="education">
-        <h3>Universidad Nacional Autónoma de México</h3>
-        <p>Ingeniería en Software - 2021 - Presente</p>
-        <p>Enfoque en desarrollo web, inteligencia artificial y seguridad informática.</p>
-      </div>
-
-      <h2>💼 Experiencia</h2>
-      <div className="experience">
-        <h3>Desarrolladora Web - Startup ABC</h3>
-        <p>(2023 - Actualidad)</p>
-        <ul>
-          <li>Desarrollo de interfaces modernas con React y Tailwind CSS.</li>
-          <li>Optimización del rendimiento en aplicaciones web.</li>
-          <li>Colaboración en proyectos ágiles con metodologías Scrum.</li>
+              <p>
+                Linkedin:
+                <a
+                  href="https://www.linkedin.com/in/mariana-gomez-201509222/"
+                  target="_blank"
+                >
+                  Mariana Gomez
+                </a>
+              </p>
+            </il>
+          </ul>
+        </div>
+        <div>
+          <h2> Profile</h2>
+          <p>
+            Here's the translation: "I am a Computer Engineering student with
+            over two years of experience in software development, database
+            management, and project organization. I am passionate about
+            artificial intelligence and its various applications as a lever for
+            transformation. I have skills in teamwork, leadership, and
+            problem-solving, with a strong commitment to achieving objectives
+            and results."
+          </p>
+        </div>
+        <h2> Education</h2>
+        <div className="education">
+          <h3>
+            Faculty of Engineering, UNAM - Computer Engineering (Ninth semester)
+          </h3>
+          <p> 2020 - present</p>
+          <h3>Junior Cybersecurity Analyst Certification - CISCO</h3>
+          <p> (2024)</p>
+          <h3>Soft Skills Course - Junior Achievement</h3>
+          <p> 2024</p>
+        </div>
+        <h2>Experience</h2>
+        <div className="experience">
+          <ul>
+            <li>
+              <strong>Data Analyst and International Team Coordinator</strong>{" "}
+              with Pontificia Universidad Católica del Ecuador, for developing a
+              neural network in Python to analyze the cause of death in Ecuador,
+              which would be used in a prevention program for diabetes – 2024
+            </li>
+            <li>
+              <strong>Data Analyst of Learning Processes</strong> at the
+              Facultad de Artes y Diseño of UNAM for improving the learning
+              process by leveraging generative artificial intelligence tools
+              (ChatGPT) – 2024
+            </li>
+            <li>
+              <strong>Project Leader and 3D Model Designer</strong> in Blender
+              for simulating quetzal habitat, focusing on raising public
+              awareness about the impact of deforestation on their ecosystem –
+              2024
+            </li>
+          </ul>
+        </div>
+        <h2>🛠 Skills</h2>
+        <ul className="skills">
+          <li>Python</li>
+          <li>Java</li>
+          <li>Oracle SQL</li>
+          <li>Notion</li>
+          <li>Visual Studio Code</li>
+          <li>Blender</li>
         </ul>
-
-        <h3>Intern en Empresa XYZ</h3>
-        <p>(2022 - 2023)</p>
-        <ul>
-          <li>Apoyo en el desarrollo backend con Node.js y Express.</li>
-          <li>Creación de APIs para integrar sistemas internos.</li>
+        <h2>🛠 Languages</h2>
+        <ul className="skills">
+          <li>Spanish (Native)</li>
+          <li>English (~B1)</li>
+          <li>French (A1)</li>
         </ul>
-      </div>
-
-      <h2>🛠 Habilidades</h2>
-      <ul className="skills">
-        <li>React, Angular, Vue.js</li>
-        <li>Node.js, Express, Spring Boot</li>
-        <li>Base de datos: MySQL, MongoDB, Firebase</li>
-        <li>Idiomas: Español (Nativo), Inglés (Avanzado), Francés (Intermedio)</li>
-      </ul>
-
+        {/*
       <h2>🚀 Proyectos</h2>
-      <div className="projects">
-        <div className="project-card">
+      <div class="projects">
+        <div class="project-card">
           <h3>Sistema de Gestión de Tareas</h3>
-          <p>Aplicación full-stack que permite administrar tareas con autenticación de usuarios.</p>
+          <p>
+            Aplicación full-stack que permite administrar tareas con
+            autenticación de usuarios.
+          </p>
         </div>
 
-        <div className="project-card">
+        <div class="project-card">
           <h3>Blog Personal</h3>
-          <p>Plataforma desarrollada en React con un backend en Node.js y MongoDB.</p>
+          <p>
+            Plataforma desarrollada en React con un backend en Node.js y
+            MongoDB.
+          </p>
         </div>
       </div>
+      */}
+      </div>
+
+      <footer>
+        <p>
+          Faculty of Engineering - National Autonomous University of Mexico
+          (UNAM) - Mariana Gómez Urbano
+        </p>
+        <p>© 2025 All rights reserved.</p>
+      </footer>
     </div>
   );
 };
