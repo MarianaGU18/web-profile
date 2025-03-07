@@ -1,5 +1,6 @@
 import React from "react";
 import "./Curriculum.css";
+import CredlyBadge from "../CredlyBadge/CredlyBadge";
 
 const Curriculum = () => {
   return (
@@ -14,12 +15,23 @@ const Curriculum = () => {
               <p> Email: margu2606@gmail.com</p>
 
               <p>
-                Linkedin:
+                Linkedin:{" "}
                 <a
                   href="https://www.linkedin.com/in/mariana-gomez-201509222/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Mariana Gomez
+                </a>
+                <br />
+                <br />
+                Github:{" "}
+                <a
+                  href="https://github.com/MarianaGU18?tab=repositories"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  MarianaGU18
                 </a>
               </p>
             </il>
@@ -86,26 +98,33 @@ const Curriculum = () => {
           <li>English (~B1)</li>
           <li>French (A1)</li>
         </ul>
-        {/*
-      <h2>🚀 Proyectos</h2>
-      <div class="projects">
-        <div class="project-card">
-          <h3>Sistema de Gestión de Tareas</h3>
-          <p>
-            Aplicación full-stack que permite administrar tareas con
-            autenticación de usuarios.
-          </p>
-        </div>
+        <h2>Certifications</h2>
 
-        <div class="project-card">
-          <h3>Blog Personal</h3>
-          <p>
-            Plataforma desarrollada en React con un backend en Node.js y
-            MongoDB.
-          </p>
+        <div class="projects">
+          <div class="project-card">
+            <p>
+              <CredlyBadge></CredlyBadge>
+            </p>
+          </div>
+
+          <div class="project-card">
+            <h2>Certificates</h2>
+            <div className="gallery">
+              <img
+                src="https://media.licdn.com/dms/image/v2/D4E22AQHQ3MJwrsOtEg/feedshare-shrink_800/B4EZVxFVecHMAg-/0/1741358980271?e=1744243200&v=beta&t=ai8R3kDUi0dpGnzAqPVXugbdpaJgRZ8CPzxPUlMJBlM"
+                alt="1"
+              />
+              <img
+                src="https://media.licdn.com/dms/image/v2/D4E22AQF2Zt0ntYkTGg/feedshare-shrink_800/B4EZVxGGuEGwAg-/0/1741359181091?e=1744243200&v=beta&t=G6IwvA_zuZKbpukE9zKXgVUDfDkDZ_FH-3OlCw7JX5U"
+                alt="2"
+              />
+              <img
+                src="https://media.licdn.com/dms/image/v2/D4E22AQFpBlDCtgHHnA/feedshare-shrink_800/B4EZVxGXPbGgAg-/0/1741359248776?e=1744243200&v=beta&t=29XD35eUP0icPqOl7VDSSrg6qV0DJYT0hAMcToRxNXU"
+                alt="3"
+              />
+            </div>
+          </div>
         </div>
-      </div>
-      */}
       </div>
 
       <footer>
