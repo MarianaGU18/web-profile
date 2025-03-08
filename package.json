@@ -1,7 +1,7 @@
 {
   "name": "web-profile",
   "private": true,
-  "homepages": "https://marianagu18.github.io/web-profile/build",
+  "homepages": "https://MarianaGU18.github.io/web-profile",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -26,6 +26,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.10",
     "vite": "^5.4.14"
